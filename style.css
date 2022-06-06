@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    font-family: 'Inter', sans-serif;
+}
+
+#stringconversion {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgb(20, 20, 20);
+    max-width: 75%;
+}
+
+input:focus {
+    border-bottom: 1px solid rgb(0, 47, 142);
+}
