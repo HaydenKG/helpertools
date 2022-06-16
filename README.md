@@ -1,20 +1,21 @@
 # helpertools
 A set of tools that come in handy when dealing with string conversion and replacement.
 
+Accessable:
 https://haydenkg.github.io/helpertools/
 
-###Functionalities 
-- String replacement 
+### Functionalities 
+- String replacement  
 C:\Users\Name\OneDrive\Documents > C:/Users/Name/OneDrive/Documents
 
-- String concatination
+- String concatination  
 flirc_util.exe sendir --pattern= + 0,232,457,43,856,34,231,789 = flirc_util.exe sendir --pattern=0,232,457,43,856,34,231,789
 
-- String to array string
+- String to array string  
 Easy string > [ "Easy", "string" ]
 
 
-##Motivation: 
+### Motivation: 
 During testing of different strings I needed a tool that is quicker than the manual replacement of the parts of a string. Therefore I created this tool. 
 
 Made with HTML, CSS and Vue. 
