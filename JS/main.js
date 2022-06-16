@@ -1,5 +1,12 @@
 const app = Vue.createApp({
     data() {
-        return {}
+        return {
+            showItemWithID: 0
+        }
+    },
+    methods:{
+        IDchanged(value){
+            this.showItemWithID = value;
+        }
     }
 })
