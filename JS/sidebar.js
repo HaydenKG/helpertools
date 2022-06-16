@@ -5,14 +5,14 @@ app.component('side-bar', {
         <div id="sidebar">
             <h1>Helper tools</h1>
             <div id="selection">
-             <h2 v-for="(selection, key) in selections" @click="emitID(key)" :class="{selected: key == id}">{{selection}}</h2>
+             <h3 class="selection_btn" v-for="(selection, key) in selections" @click="emitID(key)" :class="{selected: key == id}">{{selection}}</h3>
             </div>
         </div>
     `,
     data() {
         return {
             id: 0,
-            selections: ["string replacement", "string concat"]
+            selections: ["string replacement", "string concat", "to string array"]
         }
     },
     methods: {

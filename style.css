@@ -21,7 +21,7 @@ body {
     display: grid;
     grid-template-rows: 20% 80%;
     align-items: center;
-    justify-content: center;
+    text-align: center;
     background-color: #012340;
     min-width: fit-content;
     padding: 1px;
@@ -31,6 +31,15 @@ body {
 #selection{
     display: flex;
     flex-direction: column;
+}
+
+.selection_btn{
+    color: #fefefe;
+    transition: all .2s;
+}
+
+.selection_btn:hover{
+    color:#04D939;
 }
 
 .selected{

@@ -20,6 +20,10 @@
                 <h1>String concatinator</h1>
                 <string-concat></string-concat>
             </div>
+            <div v-show="showItemWithID == 2" class="content">
+                <h1>String to string array</h1>
+                <string-to-array></string-to-array>
+            </div>
         </div>
     </div>
 
@@ -30,6 +34,7 @@
     <script src="./JS/sidebar.js"></script>
     <script src="./JS/stringConverter.js"></script>
     <script src="./JS/stringConcat.js"></script>
+    <script src="./JS/stringToArray.js"></script>
     <!--Mount app-->
     <script>
         const mountedApp = app.mount('#app');
