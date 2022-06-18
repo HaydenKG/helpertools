@@ -4,7 +4,7 @@ app.component('string-converter', {
         `        
         <div id="string_conversion">
             <h2>Text Input:</h2>
-            <input v-model="stringholder">
+            <textarea id="input_area" v-model="stringholder"></textarea>
             <h2>Replace:</h2>
             <input v-model="toReplace"> 
             <h2>With:</h2>
