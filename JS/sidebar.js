@@ -3,9 +3,9 @@ app.component('side-bar', {
         /*html*/
         `
         <div id="sidebar">
-            <h1>Helper tools</h1>
+            <h1 class="slide_animation">Helper tools</h1>
             <div id="selection">
-             <h3 class="selection_btn" v-for="(selection, key) in selections" @click="emitID(key)" :class="{selected: key == id}">{{selection}}</h3>
+             <h3 class="selection_btn slide_animation" v-for="(selection, key) in selections" @click="emitID(key)" :class="{selected: key == id}">{{selection}}</h3>
             </div>
         </div>
     `,
@@ -19,6 +19,9 @@ app.component('side-bar', {
         emitID(selectedItem){
             this.id = selectedItem;
             this.$emit('new-id', selectedItem);
+        },
+        slideinAnimation(index){
+            return {'--order': index}
         }
     }
 

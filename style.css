@@ -31,6 +31,7 @@ body {
 #selection{
     display: flex;
     flex-direction: column;
+    font-size: 1.3rem;
 }
 
 .selection_btn{
@@ -77,9 +78,10 @@ body {
     text-align: center;
 }
 
-#input_area{
+.input_area{
     max-width: 85%;
     padding: 10px 0;
+    white-space: normal;
 }
 
 input {
@@ -115,4 +117,19 @@ input:focus {
 
 #copy_btn:active{
     color: #00df4e;
+}
+
+.slide_animation {
+    opacity: 0;
+    animation: slideIn .75s ease 2s forwards;
+    animation-delay: calc(var(--order) * 300ms);
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

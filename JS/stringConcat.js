@@ -4,9 +4,9 @@ app.component('string-concat', {
         `
         <div id="string_conversion">
             <h2>First Text Input:</h2>
-            <input v-model="stringholder">
+            <textarea class="input_area"  v-model="stringholder"></textarea>
             <h2>Second Text Input:</h2>
-            <input v-model="stringholder2">
+            <textarea class="input_area"  v-model="stringholder2"></textarea>
             <h2>Result:</h2>
             <span id="replacement_result">
                 {{result}}
