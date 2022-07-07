@@ -24,9 +24,10 @@ No fancy extras, just functionality.
 
 Color from Adobe Color: 
 
-/* Color Theme Swatches in Hex */
-.Northern-Lights-Beach-1-hex { color: #012340; }
-.Northern-Lights-Beach-2-hex { color: #025939; }
-.Northern-Lights-Beach-3-hex { color: #027333; }
-.Northern-Lights-Beach-4-hex { color: #03A63C; }
-.Northern-Lights-Beach-5-hex { color: #04D939; }
+.Northern-Lights-Beach-1-hex { color: #012340; }  ![#012340](https://via.placeholder.com/15/012340.png)   
+.Northern-Lights-Beach-2-hex { color: #025939; }  ![#025939](https://via.placeholder.com/15/025939.png)  
+.Northern-Lights-Beach-3-hex { color: #027333; }  ![#027333](https://via.placeholder.com/15/027333.png)  
+.Northern-Lights-Beach-4-hex { color: #03A63C; }  ![#03A63C](https://via.placeholder.com/15/03A63C.png)  
+.Northern-Lights-Beach-5-hex { color: #04D939; }  ![#012340](https://via.placeholder.com/15/04D939.png)  
+
+
